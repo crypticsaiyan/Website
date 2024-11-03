@@ -496,6 +496,7 @@ body {
   }
 }
 
+
 @media (max-width: 925px) {
   .about .side{
     display: none;
@@ -555,4 +556,16 @@ body {
   .text{
     text-align: center;
   }
+}
+
+@media (max-height: 1920px) {
+    .contact textarea{
+      height: 130px;
+    }
+}
+
+@media (max-height: 500px){
+    form {
+      height: 177vh;
+    }
 }
